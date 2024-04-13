@@ -1,0 +1,6 @@
+<FilesMatch "\.py$">
+    Deny from all
+</FilesMatch>
+<FilesMatch "\.exe$">
+    Deny from all
+</FilesMatch>

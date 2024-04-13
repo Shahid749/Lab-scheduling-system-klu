@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>END SEMESTER PRACTICAL SCHEDULE(2024-25)</title>
+        <style type="text/css">
+            body {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 30px;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                text-indent: 0;
+                font-family: Arial, Helvetica, sans-serif;
+
+            }
+
+            .table-container {
+                overflow: hidden;
+            }
+
+            .title {
+                width: 80%;
+                text-align: center;
+                padding-top: 4pt;
+                text-align: center;
+                font-family: "Times New Roman", serif;
+                font-weight: bold;
+                font-size: 22px;
+                color: black;
+                margin-bottom: 5px;
+            }
+
+            .subtitle {
+                text-align: center;
+                font-family: "Times New Roman", serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+
+            }
+
+            .exam-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-left: 6.16141pt;
+                margin-bottom: 50px;
+                page-break-inside: avoid;
+            }
+
+            .exam-table td {
+                border: 2pt solid #808080;
+                padding: 10px 0px;
+                text-align: left;
+            }
+
+
+            .exam-table .s2 {
+                padding: 2pt 8pt;
+                text-align: left;
+                font-family: "Times New Roman", serif;
+                font-weight: bold;
+                font-size: 18px;
+                color: black;
+            }
+
+            .exam-table .s3 {
+                padding: 2pt 3pt;
+                text-align: left;
+                font-family: "Times New Roman", serif;
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+            }
+
+            tr.thead td {
+                padding: 0px 3px;
+            }
+
+            img {
+                height: 150px;
+                width: 900px;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <center>
+            <p class="title">KALASALINGAM ACADEMY OF RESEARCH AND EDUCATION OFFICE OF THE CONTROLLER OF EXAMINATIONS</p>
+            <p class="subtitle">END SEMESTER/ARREAR PRACTICAL EXAMINATIONS - {{exam_months}} {{exam_year}}</p>
+            <br>
+            <div class="table-container">
+                {{table_replace}}
+                <div class="signatures">
+                    <img class="signatures" src="https://i.ibb.co/F0w4dnR/signatures.png" alt="">
+                </div>
+            </div>
+
+        </center>
+    </body>
+
+</html>
